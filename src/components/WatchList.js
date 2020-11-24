@@ -13,7 +13,7 @@ const WatchList = () => {
 				{watchlist.length > 0 ? (
 					<div className="movie-grid">
 						{watchlist.map(movie => {
-							return <WatchlistMovieCard movie={movie} type={watchlist} />;
+							return <WatchlistMovieCard movie={movie} type="watchlist" />;
 						})}
 					</div>
 				) : (

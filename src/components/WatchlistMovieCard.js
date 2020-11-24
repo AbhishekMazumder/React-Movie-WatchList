@@ -13,6 +13,7 @@ const WatchlistMovieCard = ({ movie, type }) => {
 			) : (
 				<div className="filler-poster"></div>
 			)}
+			
 			<MovieControls type={type} movie={movie} />
 		</div>
 	);
